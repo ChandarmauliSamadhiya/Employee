@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MCA
+{
 
 class Employee
 {
@@ -35,5 +42,5 @@ class Program
         employee1.DisplayDetails();
         Console.ReadLine();
     }
- 
+  }
 }
