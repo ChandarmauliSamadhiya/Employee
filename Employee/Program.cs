@@ -3,9 +3,9 @@
 class Employee
 {
     
-    public string Name { get; set; }
-    public int Age { get; set; }
-    public double Salary { get; set; }
+    public string Name ;
+    public int Age ;
+    public double Salary ;
 
     public Employee(string name, int age, double salary)
     {
