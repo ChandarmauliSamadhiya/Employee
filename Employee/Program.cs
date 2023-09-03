@@ -24,9 +24,9 @@ class Employee
 
     public void DisplayDetails()
     {
-        Console.WriteLine($"Name: {Name}");
-        Console.WriteLine($"Age: {Age}");
-        Console.WriteLine($"Salary: ${Salary}");
+        Console.WriteLine("Name:" + Name);
+        Console.WriteLine("Age:" + Age);
+        Console.WriteLine("Salary:" + Salary);
     }
 }
 
